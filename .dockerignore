@@ -1,0 +1,17 @@
+node_modules
+.next
+.git
+.gitignore
+.env*.local
+.env
+README.md
+Dockerfile
+docker-compose.yml
+.dockerignore
+.idea
+.vscode
+*.log
+coverage
+.DS_Store
+Thumbs.db
+formulario.pdf

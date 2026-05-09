@@ -1,0 +1,122 @@
+{
+  "Meta": {
+    "title": "Formulário de Nomeação de Beneficiários | Nossa Seguros",
+    "description": "Formulário digital de nomeação de beneficiários do Seguro de Vida Individual da Nossa Seguros."
+  },
+  "Header": {
+    "productName": "SEGURO DE VIDA INDIVIDUAL",
+    "formName": "FORMULÁRIO DE NOMEAÇÃO DE BENEFICIÁRIOS",
+    "formNumber": "01"
+  },
+  "LanguageSwitcher": {
+    "label": "Idioma",
+    "pt": "Português",
+    "en": "English",
+    "fr": "Français"
+  },
+  "Form": {
+    "fillInstruction": "Os campos marcados com * são de preenchimento obrigatório.",
+    "policyHolderSection": "TOMADOR DO SEGURO/PESSOA SEGURA",
+    "insuredPersonSection": "PESSOA SEGURA",
+    "fields": {
+      "fullName": "Nome Completo",
+      "policyNumber": "Número da Apólice",
+      "address": "Endereço",
+      "nif": "NIF",
+      "phone": "Telefone",
+      "email": "Email para receber cópia",
+      "emailHint": "Enviaremos uma cópia do formulário para este endereço."
+    },
+    "declaration": {
+      "intro": "Eu,",
+      "outro": ", reconheço que fui informado(a) sobre os Termos e Condições da Apólice do Seguro de Vida Individual.",
+      "deathClause": "Estou ciente de que em caso de Morte será pago o Capital Seguro ao(s) beneficiário(s) abaixo declarados.",
+      "confirmation": "Confirmo que o(s) beneficiário(s) desta Apólice é/são os seguintes:"
+    },
+    "beneficiaries": {
+      "title": "Beneficiários",
+      "fullName": "Nome Completo",
+      "birthDate": "Data de Nascimento",
+      "idDocument": "B.I. / Passaporte",
+      "relationship": "Grau de Parentesco",
+      "percentage": "Beneficiário (%)",
+      "addRow": "Adicionar beneficiário",
+      "removeRow": "Remover",
+      "row": "Linha {index}",
+      "relationshipOptions": {
+        "spouse": "Cônjuge",
+        "child": "Filho(a)",
+        "parent": "Pai/Mãe",
+        "sibling": "Irmão/Irmã",
+        "grandparent": "Avô/Avó",
+        "grandchild": "Neto(a)",
+        "other": "Outro"
+      }
+    },
+    "consent": {
+      "updateNotice": "Estou ciente que deverei actualizar este formulário sempre que necessário e submeter à NOSSA.",
+      "dataProcessing": "Autorizo que os dados recolhidos no presente documento, bem como em outros documentos que vierem a ser fornecidos posteriormente, nomeadamente aquando da participação de um sinistro, sejam processados e armazenados informaticamente para efeitos de gestão da Apólice do Seguro de Vida Individual, incluindo a disponibilização dos dados a outras empresas, nomeadamente do grupo, subcontratadas e resseguradores, podendo envolver a transferência da informação para outros países, bem como para efeitos de marketing directo.",
+      "integralPart": "Concordo que esta confirmação seja parte integrante da Apólice.",
+      "agree": "Li e concordo com as declarações e autorizações."
+    },
+    "confirmation": {
+      "date": "Data",
+      "modalTitle": "Confirmar submissão",
+      "modalIntro": "Ao clicar em \"Aceito e Submeto\", declara que:",
+      "modalBullets": [
+        "Leu e aceita os termos e condições da Apólice do Seguro de Vida Individual.",
+        "Autoriza o tratamento dos dados nos termos descritos no formulário.",
+        "Confirma que os beneficiários indicados são os pretendidos.",
+        "Esta aceitação digital tem o mesmo efeito que uma assinatura manuscrita."
+      ],
+      "modalDateNotice": "Aceitação registada em: {date}",
+      "cancel": "Cancelar",
+      "confirm": "Aceito e Submeto"
+    },
+    "actions": {
+      "submit": "Submeter formulário",
+      "submitting": "A submeter…",
+      "reset": "Limpar formulário"
+    },
+    "validation": {
+      "required": "Campo obrigatório",
+      "minLength": "Mínimo {min} caracteres",
+      "invalidEmail": "Email inválido",
+      "invalidNif": "NIF inválido (deve ter 9 a 14 dígitos)",
+      "invalidPhone": "Telefone inválido",
+      "percentageRange": "A percentagem deve estar entre 0 e 100",
+      "atLeastOneBeneficiary": "Indique pelo menos um beneficiário",
+      "agreeRequired": "Tem de aceitar as declarações para submeter"
+    }
+  },
+  "Success": {
+    "title": "Formulário submetido com sucesso",
+    "message": "Recebemos a sua nomeação de beneficiários. Foi enviada uma cópia em PDF para o email indicado.",
+    "submissionId": "Referência",
+    "newSubmission": "Submeter novo formulário"
+  },
+  "Errors": {
+    "submitFailed": "Não foi possível submeter o formulário. Tente novamente em alguns instantes.",
+    "networkError": "Erro de ligação. Verifique a sua internet e tente de novo.",
+    "validationError": "Existem campos por preencher ou inválidos.",
+    "title": "Ocorreu um erro"
+  },
+  "Footer": {
+    "company": "Nova Sociedade de Seguros de Angola, S. A.",
+    "address": "Av. Pedro de Castro Van-Dúnem \"Loy\", Academia BAI, Bloco C, 4º Andar, Morro Bento, Luanda Sul – Angola",
+    "contactCenterLabel": "Contact Center",
+    "contactCenterNumber": "+244 923 190 860",
+    "website": "www.nossaseguros.ao",
+    "legal": "Nossa Seguros, S.A - Capital Social: AKZ 5.000.000.000,00 - Reg. Cons. Reg. Com. Luanda Nº 1142 (5/11/2004) - N.I.F. 5401113420"
+  },
+  "Email": {
+    "subject": "Cópia da sua Nomeação de Beneficiários - Nossa Seguros",
+    "greeting": "Caro(a) {name},",
+    "body": "Em anexo segue a cópia em PDF do formulário de Nomeação de Beneficiários do Seguro de Vida Individual que submeteu através do nosso portal.",
+    "reference": "Referência da submissão: {id}",
+    "support": "Para qualquer questão, contacte o nosso Contact Center através do +244 923 190 860 ou de geral@nossaseguros.ao.",
+    "regards": "Com os melhores cumprimentos,",
+    "team": "Equipa Nossa Seguros",
+    "automaticEmail": "Este é um email automático. Por favor, não responda a esta mensagem."
+  }
+}

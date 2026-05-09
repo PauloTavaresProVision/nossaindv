@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+@theme {
+  /* Cores institucionais Nossa Seguros — extraídas do PDF original */
+  --color-nossa-blue-50: #eef3fb;
+  --color-nossa-blue-100: #d4e0f3;
+  --color-nossa-blue-500: #1f3d72;
+  --color-nossa-blue-700: #102e60;
+  --color-nossa-blue-900: #0a1d3f;
+
+  --color-nossa-green-100: #e3f1cd;
+  --color-nossa-green-300: #b3da7e;
+  --color-nossa-green-500: #7fbe3d;
+  --color-nossa-green-600: #6ba830;
+  --color-nossa-green-700: #56891f;
+
+  --color-nossa-gray-50: #f5f7fa;
+  --color-nossa-gray-100: #eaedf3;
+  --color-nossa-gray-200: #d6dbe6;
+  --color-nossa-gray-400: #8a93a8;
+  --color-nossa-gray-700: #3d4660;
+  --color-nossa-gray-900: #1a2238;
+
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: var(--color-nossa-gray-50);
+  color: var(--color-nossa-gray-900);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Inputs base */
+.input-base {
+  @apply w-full rounded-md border border-[var(--color-nossa-gray-200)] bg-white px-3 py-2 text-sm
+         text-[var(--color-nossa-gray-900)] placeholder:text-[var(--color-nossa-gray-400)]
+         outline-none transition focus:border-[var(--color-nossa-green-500)]
+         focus:ring-2 focus:ring-[var(--color-nossa-green-500)]/30 disabled:bg-[var(--color-nossa-gray-50)];
+}
+
+.input-base[aria-invalid="true"] {
+  @apply border-red-500 focus:border-red-500 focus:ring-red-500/30;
+}
+
+.label-base {
+  @apply mb-1 block text-xs font-semibold uppercase tracking-wide text-[var(--color-nossa-gray-700)];
+}
+
+.section-header {
+  @apply -mx-4 my-4 border-y border-[var(--color-nossa-green-500)] bg-white px-4 py-2 text-center text-sm font-bold uppercase tracking-wider text-[var(--color-nossa-blue-900)] sm:mx-0 sm:rounded;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center gap-2 rounded-md bg-[var(--color-nossa-green-500)] px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-[var(--color-nossa-green-600)] focus:outline-none focus:ring-2 focus:ring-[var(--color-nossa-green-500)]/40 disabled:cursor-not-allowed disabled:opacity-60;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center gap-2 rounded-md border border-[var(--color-nossa-gray-200)] bg-white px-4 py-2 text-sm font-semibold text-[var(--color-nossa-gray-700)] transition hover:bg-[var(--color-nossa-gray-50)];
+}
+
+.btn-ghost {
+  @apply inline-flex items-center justify-center gap-1 rounded-md px-2 py-1 text-xs font-medium text-[var(--color-nossa-gray-700)] transition hover:bg-[var(--color-nossa-gray-100)];
+}
+
+/* Linha verde decorativa abaixo dos cabeçalhos de secção */
+.section-rule {
+  height: 2px;
+  background: linear-gradient(
+    to right,
+    var(--color-nossa-green-500),
+    var(--color-nossa-green-300)
+  );
+}
+
+/* Esconder spinners em inputs number (estética igual ao PDF) */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* Scrollbar limpa nas tabelas */
+.table-wrap::-webkit-scrollbar {
+  height: 8px;
+}
+.table-wrap::-webkit-scrollbar-thumb {
+  background: var(--color-nossa-gray-200);
+  border-radius: 9999px;
+}

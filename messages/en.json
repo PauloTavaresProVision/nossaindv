@@ -1,0 +1,122 @@
+{
+  "Meta": {
+    "title": "Beneficiary Designation Form | Nossa Seguros",
+    "description": "Digital form for beneficiary designation of Nossa Seguros' Individual Life Insurance policy."
+  },
+  "Header": {
+    "productName": "INDIVIDUAL LIFE INSURANCE",
+    "formName": "BENEFICIARY DESIGNATION FORM",
+    "formNumber": "01"
+  },
+  "LanguageSwitcher": {
+    "label": "Language",
+    "pt": "Português",
+    "en": "English",
+    "fr": "Français"
+  },
+  "Form": {
+    "fillInstruction": "Fields marked with * are required.",
+    "policyHolderSection": "POLICYHOLDER / INSURED PERSON",
+    "insuredPersonSection": "INSURED PERSON",
+    "fields": {
+      "fullName": "Full name",
+      "policyNumber": "Policy number",
+      "address": "Address",
+      "nif": "Tax ID (NIF)",
+      "phone": "Phone",
+      "email": "Email to receive a copy",
+      "emailHint": "We'll send a copy of the form to this address."
+    },
+    "declaration": {
+      "intro": "I,",
+      "outro": ", acknowledge that I have been informed of the Terms and Conditions of the Individual Life Insurance Policy.",
+      "deathClause": "I am aware that in the event of Death the Insured Capital will be paid to the beneficiary(ies) declared below.",
+      "confirmation": "I confirm that the beneficiary(ies) of this Policy is/are the following:"
+    },
+    "beneficiaries": {
+      "title": "Beneficiaries",
+      "fullName": "Full name",
+      "birthDate": "Date of birth",
+      "idDocument": "ID / Passport",
+      "relationship": "Relationship",
+      "percentage": "Share (%)",
+      "addRow": "Add beneficiary",
+      "removeRow": "Remove",
+      "row": "Row {index}",
+      "relationshipOptions": {
+        "spouse": "Spouse",
+        "child": "Child",
+        "parent": "Parent",
+        "sibling": "Sibling",
+        "grandparent": "Grandparent",
+        "grandchild": "Grandchild",
+        "other": "Other"
+      }
+    },
+    "consent": {
+      "updateNotice": "I am aware that I must update this form whenever necessary and submit it to NOSSA.",
+      "dataProcessing": "I authorise the data collected in this document, as well as in any other documents to be provided later — namely upon claim submission — to be processed and stored electronically for the purposes of managing the Individual Life Insurance Policy, including disclosure to other companies (in particular within the group, subcontractors and reinsurers), which may involve transferring information to other countries, as well as for direct marketing purposes.",
+      "integralPart": "I agree that this confirmation forms an integral part of the Policy.",
+      "agree": "I have read and agree with the declarations and authorisations."
+    },
+    "confirmation": {
+      "date": "Date",
+      "modalTitle": "Confirm submission",
+      "modalIntro": "By clicking \"Accept and Submit\", you declare that:",
+      "modalBullets": [
+        "You have read and accept the terms and conditions of the Individual Life Insurance Policy.",
+        "You authorise the processing of your data as described in the form.",
+        "You confirm that the beneficiaries listed are the intended ones.",
+        "This digital acceptance has the same effect as a handwritten signature."
+      ],
+      "modalDateNotice": "Acceptance recorded on: {date}",
+      "cancel": "Cancel",
+      "confirm": "Accept and Submit"
+    },
+    "actions": {
+      "submit": "Submit form",
+      "submitting": "Submitting…",
+      "reset": "Reset form"
+    },
+    "validation": {
+      "required": "Required field",
+      "minLength": "Minimum {min} characters",
+      "invalidEmail": "Invalid email",
+      "invalidNif": "Invalid Tax ID (must have 9 to 14 digits)",
+      "invalidPhone": "Invalid phone number",
+      "percentageRange": "Percentage must be between 0 and 100",
+      "atLeastOneBeneficiary": "Please add at least one beneficiary",
+      "agreeRequired": "You must accept the declarations to submit"
+    }
+  },
+  "Success": {
+    "title": "Form submitted successfully",
+    "message": "We have received your beneficiary designation. A PDF copy has been sent to the email you provided.",
+    "submissionId": "Reference",
+    "newSubmission": "Submit another form"
+  },
+  "Errors": {
+    "submitFailed": "Couldn't submit the form. Please try again in a few moments.",
+    "networkError": "Connection error. Check your internet and try again.",
+    "validationError": "Some fields are missing or invalid.",
+    "title": "An error occurred"
+  },
+  "Footer": {
+    "company": "Nova Sociedade de Seguros de Angola, S. A.",
+    "address": "Av. Pedro de Castro Van-Dúnem \"Loy\", Academia BAI, Bloco C, 4th Floor, Morro Bento, Luanda Sul – Angola",
+    "contactCenterLabel": "Contact Center",
+    "contactCenterNumber": "+244 923 190 860",
+    "website": "www.nossaseguros.ao",
+    "legal": "Nossa Seguros, S.A - Share Capital: AKZ 5,000,000,000.00 - Commercial Registry of Luanda Nº 1142 (5/11/2004) - Tax ID 5401113420"
+  },
+  "Email": {
+    "subject": "Copy of your Beneficiary Designation - Nossa Seguros",
+    "greeting": "Dear {name},",
+    "body": "Please find attached the PDF copy of the Beneficiary Designation form for the Individual Life Insurance you submitted through our portal.",
+    "reference": "Submission reference: {id}",
+    "support": "For any questions, contact our Contact Center at +244 923 190 860 or geral@nossaseguros.ao.",
+    "regards": "Best regards,",
+    "team": "Nossa Seguros Team",
+    "automaticEmail": "This is an automatic email. Please do not reply."
+  }
+}

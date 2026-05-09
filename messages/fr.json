@@ -1,0 +1,122 @@
+{
+  "Meta": {
+    "title": "Formulaire de Désignation des Bénéficiaires | Nossa Seguros",
+    "description": "Formulaire numérique de désignation des bénéficiaires de l'Assurance Vie Individuelle de Nossa Seguros."
+  },
+  "Header": {
+    "productName": "ASSURANCE VIE INDIVIDUELLE",
+    "formName": "FORMULAIRE DE DÉSIGNATION DES BÉNÉFICIAIRES",
+    "formNumber": "01"
+  },
+  "LanguageSwitcher": {
+    "label": "Langue",
+    "pt": "Português",
+    "en": "English",
+    "fr": "Français"
+  },
+  "Form": {
+    "fillInstruction": "Les champs marqués d'un * sont obligatoires.",
+    "policyHolderSection": "SOUSCRIPTEUR / ASSURÉ",
+    "insuredPersonSection": "PERSONNE ASSURÉE",
+    "fields": {
+      "fullName": "Nom complet",
+      "policyNumber": "Numéro de police",
+      "address": "Adresse",
+      "nif": "Numéro fiscal (NIF)",
+      "phone": "Téléphone",
+      "email": "Email pour recevoir une copie",
+      "emailHint": "Nous enverrons une copie du formulaire à cette adresse."
+    },
+    "declaration": {
+      "intro": "Je soussigné(e),",
+      "outro": ", reconnais avoir été informé(e) des Conditions Générales de la Police d'Assurance Vie Individuelle.",
+      "deathClause": "Je suis conscient(e) qu'en cas de Décès, le Capital Assuré sera versé au(x) bénéficiaire(s) désigné(s) ci-dessous.",
+      "confirmation": "Je confirme que le(s) bénéficiaire(s) de cette Police est/sont le(s) suivant(s) :"
+    },
+    "beneficiaries": {
+      "title": "Bénéficiaires",
+      "fullName": "Nom complet",
+      "birthDate": "Date de naissance",
+      "idDocument": "C.I. / Passeport",
+      "relationship": "Lien de parenté",
+      "percentage": "Quote-part (%)",
+      "addRow": "Ajouter un bénéficiaire",
+      "removeRow": "Supprimer",
+      "row": "Ligne {index}",
+      "relationshipOptions": {
+        "spouse": "Conjoint(e)",
+        "child": "Enfant",
+        "parent": "Parent",
+        "sibling": "Frère/Sœur",
+        "grandparent": "Grand-parent",
+        "grandchild": "Petit-enfant",
+        "other": "Autre"
+      }
+    },
+    "consent": {
+      "updateNotice": "Je suis conscient(e) que je devrai mettre à jour ce formulaire chaque fois que nécessaire et le soumettre à NOSSA.",
+      "dataProcessing": "J'autorise le traitement et la conservation informatique des données recueillies dans le présent document, ainsi que dans d'autres documents fournis ultérieurement, notamment lors d'une déclaration de sinistre, aux fins de gestion de la Police d'Assurance Vie Individuelle, y compris la communication des données à d'autres entreprises, notamment au sein du groupe, à des sous-traitants et à des réassureurs, pouvant impliquer le transfert d'informations vers d'autres pays, ainsi qu'à des fins de marketing direct.",
+      "integralPart": "J'accepte que cette confirmation fasse partie intégrante de la Police.",
+      "agree": "J'ai lu et j'accepte les déclarations et autorisations."
+    },
+    "confirmation": {
+      "date": "Date",
+      "modalTitle": "Confirmer la soumission",
+      "modalIntro": "En cliquant sur « Accepter et Soumettre », vous déclarez :",
+      "modalBullets": [
+        "Avoir lu et accepté les conditions générales de la Police d'Assurance Vie Individuelle.",
+        "Autoriser le traitement de vos données comme décrit dans le formulaire.",
+        "Confirmer que les bénéficiaires indiqués sont bien ceux souhaités.",
+        "Cette acceptation numérique a le même effet qu'une signature manuscrite."
+      ],
+      "modalDateNotice": "Acceptation enregistrée le : {date}",
+      "cancel": "Annuler",
+      "confirm": "Accepter et Soumettre"
+    },
+    "actions": {
+      "submit": "Soumettre le formulaire",
+      "submitting": "Envoi en cours…",
+      "reset": "Réinitialiser le formulaire"
+    },
+    "validation": {
+      "required": "Champ obligatoire",
+      "minLength": "Minimum {min} caractères",
+      "invalidEmail": "Email invalide",
+      "invalidNif": "NIF invalide (doit contenir entre 9 et 14 chiffres)",
+      "invalidPhone": "Téléphone invalide",
+      "percentageRange": "Le pourcentage doit être compris entre 0 et 100",
+      "atLeastOneBeneficiary": "Veuillez indiquer au moins un bénéficiaire",
+      "agreeRequired": "Vous devez accepter les déclarations pour soumettre"
+    }
+  },
+  "Success": {
+    "title": "Formulaire soumis avec succès",
+    "message": "Nous avons reçu votre désignation de bénéficiaires. Une copie PDF a été envoyée à l'adresse email indiquée.",
+    "submissionId": "Référence",
+    "newSubmission": "Soumettre un nouveau formulaire"
+  },
+  "Errors": {
+    "submitFailed": "Impossible de soumettre le formulaire. Veuillez réessayer dans quelques instants.",
+    "networkError": "Erreur de connexion. Vérifiez votre connexion internet et réessayez.",
+    "validationError": "Certains champs sont manquants ou invalides.",
+    "title": "Une erreur est survenue"
+  },
+  "Footer": {
+    "company": "Nova Sociedade de Seguros de Angola, S. A.",
+    "address": "Av. Pedro de Castro Van-Dúnem \"Loy\", Academia BAI, Bloco C, 4ème étage, Morro Bento, Luanda Sul – Angola",
+    "contactCenterLabel": "Contact Center",
+    "contactCenterNumber": "+244 923 190 860",
+    "website": "www.nossaseguros.ao",
+    "legal": "Nossa Seguros, S.A - Capital Social : AKZ 5.000.000.000,00 - Reg. Cons. Reg. Com. Luanda Nº 1142 (5/11/2004) - N.I.F. 5401113420"
+  },
+  "Email": {
+    "subject": "Copie de votre Désignation de Bénéficiaires - Nossa Seguros",
+    "greeting": "Cher/Chère {name},",
+    "body": "Veuillez trouver ci-joint la copie PDF du formulaire de Désignation des Bénéficiaires de l'Assurance Vie Individuelle que vous avez soumis via notre portail.",
+    "reference": "Référence de la soumission : {id}",
+    "support": "Pour toute question, contactez notre Contact Center au +244 923 190 860 ou à geral@nossaseguros.ao.",
+    "regards": "Cordialement,",
+    "team": "Équipe Nossa Seguros",
+    "automaticEmail": "Ceci est un email automatique. Merci de ne pas y répondre."
+  }
+}
